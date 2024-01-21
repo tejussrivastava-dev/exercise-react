@@ -1,0 +1,50 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid rgba(128, 128, 128, 0.11);
+  gap: 5px;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.upperRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lastRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 25px;
+}
+
+.upperRow h1 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 900;
+}
+.upperRow p {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.lastRow h5 {
+  font-size: 14px;
+}
+
+.lastRow p {
+  font-size: 13px;
+  opacity: 0.7;
+}
